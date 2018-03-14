@@ -1,5 +1,7 @@
 # Presentación sobre Pruebas Unitarias
 
+[![CircleCI](https://circleci.com/gh/contraslash/presentacion-pruebas.svg?style=svg)](https://circleci.com/gh/contraslash/presentacion-pruebas)
+
 Repositorio para la demostración de el uso de pruebas unitarias en Django
 
 Para crear este proyecto se usaron los siguientes comandos
@@ -138,3 +140,8 @@ Esto se logra usando el comando
 pip freeze > requirements.txt
 ```
 
+Finalmente para añadir el estado de la construcción, podemos añadir un badge a nuestro readme
+
+```markdown
+[![CircleCI](https://circleci.com/gh/contraslash/presentacion-pruebas.svg?style=svg)](https://circleci.com/gh/contraslash/presentacion-pruebas)
+```
